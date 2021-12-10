@@ -1,0 +1,178 @@
+.body{
+margin: 0px;
+padding: 0px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topbanner{
+background-color: lightskyblue;
+white-space: nowrap;
+width: 100%;
+position: fixed;
+height: 90px;
+top:0;
+left:0;
+z-index: 5;
+text-align: center;
+}
+
+.topbanner h1{
+position: fixed;
+left:540px;
+top: 10px;
+color:white;
+-webkit-text-stroke-color:black;
+-webkit-text-stroke-width: 1.5px;
+}
+
+.navlogga{
+z-index: 10;
+position: fixed;
+width: 80px;
+top: 6px;
+left: 380px;
+}
+
+.map{
+display: inline-block;
+padding-left: 100px;
+padding-right: 100px;
+position: relative;
+top: 135px;
+left: 40px;
+z-index: 1;
+}
+
+div.sidebar{
+display: inline-block;
+background-color: lightsteelblue;
+height: 100%;
+width: 140px;
+position: fixed;
+left: -10px;
+z-index: 2;
+}
+
+.bussar span{
+font-style: italic;
+}
+
+.bussar p{
+position:absolute;
+}
+
+.bussar p.buss2{
+position: absolute;
+top: 370px;
+}
+
+.bussar p:hover{
+font-size: 1.3em;
+}
+
+.bussar{
+position: absolute;
+left: 130px;
+top: 142px;
+padding-top:242px;
+padding-bottom:30px;
+padding-left:717px;
+padding-right:153px;
+white-space: nowrap;
+z-index: 3;
+}
+
+.bussbakgrund{
+position: absolute;
+left: 130px;
+top: 142px;
+background-color: lightgray;
+padding-top:242px;
+padding-bottom:210px;
+padding-left:717px;
+padding-right:413px;
+}
+
+.instruktioner{
+position: absolute;
+left: 160px;
+top: 660px;
+}
+
+footer{
+    background: lightskyblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 400px;
+ }
+
+ @media screen and (min-width: 1700px){
+ a img{
+     margin-left: 60px;
+ }
+ }
+
+ @media screen and (max-width: 1080px){
+.map {
+display: none;
+}
+
+footer{
+position: relative;
+top: 1000px;
+}
+
+.bussar h3{
+position: absolute;
+right: 200px;
+}
+
+.bussar p{
+position: absolute;
+right: 200px;
+}
+
+.bussar .buss1{
+top:300px;
+}
+ }
+
+ @media screen and (max-width: 840px){
+
+.topbanner h1{
+position: absolute;
+left: 20px;
+top: 5px;
+}
+
+.navlogga{
+display: none;
+}
+
+div.sidebar{
+display:none;
+}
+
+.bussbakgrund{
+position:absolute;
+left: 0;
+}
+
+.bussar p{
+position:absolute;
+left: 5px;
+}
+
+.bussar h3{
+position:absolute;
+left: 5px;
+}
+ }
+
